@@ -1,0 +1,1016 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.15.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>UniDx: UniDx::GameObject クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">UniDx
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.15.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_uni_dx_1_1_game_object.html','','class_uni_dx_1_1_game_object-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">UniDx::GameObject クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>キャラクターや背景カメラなどの基礎となるオブジェクト  
+ <a href="#details">[詳解]</a></p>
+
+<p><code>#include &lt;<a class="el" href="_game_object_8h_source.html">GameObject.h</a>&gt;</code></p>
+<div class="dynheader">
+UniDx::GameObject の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_uni_dx_1_1_game_object.png" usemap="#UniDx_3A_3AGameObject_map" alt=""/>
+  <map id="UniDx_3A_3AGameObject_map" name="UniDx_3A_3AGameObject_map">
+<area href="class_uni_dx_1_1_object.html" alt="UniDx::Object" shape="rect" coords="0,0,120,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a600845741b8bc94b4194f4cc67e3e8a9" id="r_a600845741b8bc94b4194f4cc67e3e8a9"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::unique_ptr&lt; <a class="el" href="class_uni_dx_1_1_component.html">Component</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a600845741b8bc94b4194f4cc67e3e8a9">GetComponents</a> () const</td></tr>
+<tr class="memitem:abd1ae0824779009dd2398f6d3df4ac7d" id="r_abd1ae0824779009dd2398f6d3df4ac7d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd1ae0824779009dd2398f6d3df4ac7d">GameObject</a> (const char *n=&quot;GameObject&quot;)</td></tr>
+<tr class="memitem:aadf17081a30878fad7a9cd283d1d0ad8" id="r_aadf17081a30878fad7a9cd283d1d0ad8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadf17081a30878fad7a9cd283d1d0ad8">GameObject</a> (const char8_t *n)</td></tr>
+<tr class="memitem:ab4a1865445940e0438b433f1bb989f89" id="r_ab4a1865445940e0438b433f1bb989f89"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4a1865445940e0438b433f1bb989f89">GameObject</a> (<a class="el" href="class_uni_dx_1_1_string_id.html">StringId</a> n)</td></tr>
+<tr class="memitem:a52fb8a471b7868ab051e46cfa61aee1c" id="r_a52fb8a471b7868ab051e46cfa61aee1c"><td class="memTemplParams" colspan="2">template&lt;typename First, typename... ComponentPtrs&gt; <br />
+requires (!std::same_as&lt;std::remove_cvref_t&lt;First&gt;, <a class="el" href="struct_uni_dx_1_1_vector3.html">Vector3</a>&gt;)</td></tr>
+<tr class="memitem:a52fb8a471b7868ab051e46cfa61aee1c template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52fb8a471b7868ab051e46cfa61aee1c">GameObject</a> (<a class="el" href="class_uni_dx_1_1_string_id.html">StringId</a> <a class="el" href="class_uni_dx_1_1_object.html#ace975b5121f8f79f54fdf62d46c06049">name</a>, First &amp;&amp;first, ComponentPtrs &amp;&amp;... rest)</td></tr>
+<tr class="memitem:ae0f4eaec6a4dd7482fccbf37b8ed56b7" id="r_ae0f4eaec6a4dd7482fccbf37b8ed56b7"><td class="memTemplParams" colspan="2">template&lt;typename... ComponentPtrs&gt; </td></tr>
+<tr class="memitem:ae0f4eaec6a4dd7482fccbf37b8ed56b7 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0f4eaec6a4dd7482fccbf37b8ed56b7">GameObject</a> (<a class="el" href="class_uni_dx_1_1_string_id.html">StringId</a> <a class="el" href="class_uni_dx_1_1_object.html#ace975b5121f8f79f54fdf62d46c06049">name</a>, <a class="el" href="struct_uni_dx_1_1_vector3.html">Vector3</a> position, ComponentPtrs &amp;&amp;... <a class="el" href="#aceb7c1e1789f1e2ba67e4e4771a9b680">components</a>)</td></tr>
+<tr class="memitem:a3534096bf7c215dfba74ad4be43791b5" id="r_a3534096bf7c215dfba74ad4be43791b5"><td class="memTemplParams" colspan="2">template&lt;typename First, typename... ComponentPtrs&gt; <br />
+requires (!std::same_as&lt;std::remove_cvref_t&lt;First&gt;, <a class="el" href="struct_uni_dx_1_1_vector3.html">Vector3</a>&gt;)</td></tr>
+<tr class="memitem:a3534096bf7c215dfba74ad4be43791b5 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3534096bf7c215dfba74ad4be43791b5">GameObject</a> (const char8_t *<a class="el" href="class_uni_dx_1_1_object.html#ace975b5121f8f79f54fdf62d46c06049">name</a>, First &amp;&amp;first, ComponentPtrs &amp;&amp;... rest)</td></tr>
+<tr class="memitem:af51bbfc947086bf69de9691ec23a9e3f" id="r_af51bbfc947086bf69de9691ec23a9e3f"><td class="memTemplParams" colspan="2">template&lt;typename... ComponentPtrs&gt; </td></tr>
+<tr class="memitem:af51bbfc947086bf69de9691ec23a9e3f template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af51bbfc947086bf69de9691ec23a9e3f">GameObject</a> (const char8_t *<a class="el" href="class_uni_dx_1_1_object.html#ace975b5121f8f79f54fdf62d46c06049">name</a>, <a class="el" href="struct_uni_dx_1_1_vector3.html">Vector3</a> position, ComponentPtrs &amp;&amp;... <a class="el" href="#aceb7c1e1789f1e2ba67e4e4771a9b680">components</a>)</td></tr>
+<tr class="memitem:a5fb67a13fbaae6e35b81fe7f52c5e3cc" id="r_a5fb67a13fbaae6e35b81fe7f52c5e3cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fb67a13fbaae6e35b81fe7f52c5e3cc">~GameObject</a> ()</td></tr>
+<tr class="memitem:a237c3446178cba6e3095dc7b6e36df1c" id="r_a237c3446178cba6e3095dc7b6e36df1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a237c3446178cba6e3095dc7b6e36df1c">Add</a> ()</td></tr>
+<tr class="memitem:a0c55e24089cc59c8b4991ef4bb3dcbbc" id="r_a0c55e24089cc59c8b4991ef4bb3dcbbc"><td class="memTemplParams" colspan="2">template&lt;typename... Rest&gt; </td></tr>
+<tr class="memitem:a0c55e24089cc59c8b4991ef4bb3dcbbc template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c55e24089cc59c8b4991ef4bb3dcbbc">Add</a> (std::unique_ptr&lt; <a class="el" href="#abd1ae0824779009dd2398f6d3df4ac7d">GameObject</a> &gt; &amp;&amp;first, Rest &amp;&amp;... rest)</td></tr>
+<tr class="memitem:a608af257312f237fb0cf4e5279e18d78" id="r_a608af257312f237fb0cf4e5279e18d78"><td class="memTemplParams" colspan="2">template&lt;typename First, typename... Rest&gt; </td></tr>
+<tr class="memitem:a608af257312f237fb0cf4e5279e18d78 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a608af257312f237fb0cf4e5279e18d78">Add</a> (First &amp;&amp;first, Rest &amp;&amp;... rest)</td></tr>
+<tr class="memitem:aeb5cba145a1f89430629023ddfb5eb95" id="r_aeb5cba145a1f89430629023ddfb5eb95"><td class="memTemplParams" colspan="2">template&lt;typename T, typename... Args&gt; </td></tr>
+<tr class="memitem:aeb5cba145a1f89430629023ddfb5eb95 template"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb5cba145a1f89430629023ddfb5eb95">AddComponent</a> (Args &amp;&amp;... args)</td></tr>
+<tr class="memdesc:aeb5cba145a1f89430629023ddfb5eb95"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンポーネントを生成してアタッチする GameObjectがアクティブシーンに接続済みなら、その場で Awake() / OnEnable() が呼ばれる  <br /></td></tr>
+<tr class="memitem:aa21abfecc5f13a5b625b1eddb2f5bf8e" id="r_aa21abfecc5f13a5b625b1eddb2f5bf8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa21abfecc5f13a5b625b1eddb2f5bf8e">checkAwake</a> ()</td></tr>
+<tr class="memdesc:aa21abfecc5f13a5b625b1eddb2f5bf8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameObjectとその子孫について、未呼び出しのAwake()/OnEnable()を呼ぶ  <br /></td></tr>
+<tr class="memitem:abc30ffbc05d2633220a43989e0f666ee" id="r_abc30ffbc05d2633220a43989e0f666ee"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:abc30ffbc05d2633220a43989e0f666ee template"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc30ffbc05d2633220a43989e0f666ee">GetComponent</a> () const</td></tr>
+<tr class="memitem:a92362d81fbdd8195d24ee0f400eb53ab" id="r_a92362d81fbdd8195d24ee0f400eb53ab"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a92362d81fbdd8195d24ee0f400eb53ab template"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92362d81fbdd8195d24ee0f400eb53ab">GetComponentInParent</a> () const</td></tr>
+<tr class="memitem:a50fa12256682aecd8485d2ce628a2ece" id="r_a50fa12256682aecd8485d2ce628a2ece"><td class="memTemplParams" colspan="2">template&lt;typename Predicate&gt; </td></tr>
+<tr class="memitem:a50fa12256682aecd8485d2ce628a2ece template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#abd1ae0824779009dd2398f6d3df4ac7d">GameObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50fa12256682aecd8485d2ce628a2ece">Find</a> (Predicate pred) const</td></tr>
+<tr class="memitem:a4e5d5083352620b8111052a177979505" id="r_a4e5d5083352620b8111052a177979505"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e5d5083352620b8111052a177979505">SetName</a> (<a class="el" href="class_uni_dx_1_1_string_id.html">StringId</a> n)</td></tr>
+<tr class="memitem:a3db41bfdac1da3521dae2f0a250497fe" id="r_a3db41bfdac1da3521dae2f0a250497fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3db41bfdac1da3521dae2f0a250497fe">checkDestroy</a> ()</td></tr>
+<tr class="memitem:a9eb6d157e864604e12ee9762300cfa49" id="r_a9eb6d157e864604e12ee9762300cfa49"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9eb6d157e864604e12ee9762300cfa49">onTriggerEnter</a> (<a class="el" href="class_uni_dx_1_1_collider.html">Collider</a> *other)</td></tr>
+<tr class="memitem:a2a1fa21682c5ddaa680b1424100ee74c" id="r_a2a1fa21682c5ddaa680b1424100ee74c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a1fa21682c5ddaa680b1424100ee74c">onTriggerStay</a> (<a class="el" href="class_uni_dx_1_1_collider.html">Collider</a> *other)</td></tr>
+<tr class="memitem:a175e1420f9335e0a5c76cc4dd0dfb084" id="r_a175e1420f9335e0a5c76cc4dd0dfb084"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a175e1420f9335e0a5c76cc4dd0dfb084">onTriggerExit</a> (<a class="el" href="class_uni_dx_1_1_collider.html">Collider</a> *other)</td></tr>
+<tr class="memitem:a53bee2f46f58c91541431bc46c10e427" id="r_a53bee2f46f58c91541431bc46c10e427"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53bee2f46f58c91541431bc46c10e427">onCollisionEnter</a> (const <a class="el" href="struct_uni_dx_1_1_collision.html">Collision</a> &amp;collision)</td></tr>
+<tr class="memitem:a363aa9f2c6e3ed82dfffca230ffb9420" id="r_a363aa9f2c6e3ed82dfffca230ffb9420"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a363aa9f2c6e3ed82dfffca230ffb9420">onCollisionStay</a> (const <a class="el" href="struct_uni_dx_1_1_collision.html">Collision</a> &amp;collision)</td></tr>
+<tr class="memitem:afbfc15b845a81c48cb7029bbab757db3" id="r_afbfc15b845a81c48cb7029bbab757db3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbfc15b845a81c48cb7029bbab757db3">onCollisionExit</a> (const <a class="el" href="struct_uni_dx_1_1_collision.html">Collision</a> &amp;collision)</td></tr>
+<tr class="inherit_header pub_methods_class_uni_dx_1_1_object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_uni_dx_1_1_object')"><span class="dynarrow"><span class="arrowhead closed"></span></span>基底クラス <a class="el" href="class_uni_dx_1_1_object.html">UniDx::Object</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:af1f20702fde9b535a83a02a5f8663fec inherit pub_methods_class_uni_dx_1_1_object" id="r_af1f20702fde9b535a83a02a5f8663fec"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uni_dx_1_1_object.html#af1f20702fde9b535a83a02a5f8663fec">~Object</a> ()</td></tr>
+<tr class="memitem:a1d2a3979c7a097b2ce35a69347ea9b9f inherit pub_methods_class_uni_dx_1_1_object" id="r_a1d2a3979c7a097b2ce35a69347ea9b9f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uni_dx_1_1_object.html#a1d2a3979c7a097b2ce35a69347ea9b9f">Object</a> (<a class="el" href="class_uni_dx_1_1_read_only_property.html">ReadOnlyProperty</a>&lt; <a class="el" href="class_uni_dx_1_1_string_id.html">StringId</a> &gt;<a class="el" href="class_uni_dx_1_1_read_only_property.html">::Getter</a> nameGet)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+公開変数類</h2></td></tr>
+<tr class="memitem:ae4cc15a46c5c931ac05c96a4c9479812" id="r_ae4cc15a46c5c931ac05c96a4c9479812"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_uni_dx_1_1_transform.html">Transform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4cc15a46c5c931ac05c96a4c9479812">transform</a></td></tr>
+<tr class="inherit_header pub_attribs_class_uni_dx_1_1_object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_uni_dx_1_1_object')"><span class="dynarrow"><span class="arrowhead closed"></span></span>基底クラス <a class="el" href="class_uni_dx_1_1_object.html">UniDx::Object</a> に属する継承公開変数類</td></tr>
+<tr class="memitem:ace975b5121f8f79f54fdf62d46c06049 inherit pub_attribs_class_uni_dx_1_1_object" id="r_ace975b5121f8f79f54fdf62d46c06049"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_uni_dx_1_1_read_only_property.html">ReadOnlyProperty</a>&lt; <a class="el" href="class_uni_dx_1_1_string_id.html">StringId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uni_dx_1_1_object.html#ace975b5121f8f79f54fdf62d46c06049">name</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+限定公開メンバ関数</h2></td></tr>
+<tr class="memitem:a3485f4a4f62ed46102ebf88817d19894" id="r_a3485f4a4f62ed46102ebf88817d19894"><td class="memTemplParams" colspan="2">template&lt;typename T, typename... Args&gt; </td></tr>
+<tr class="memitem:a3485f4a4f62ed46102ebf88817d19894 template"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3485f4a4f62ed46102ebf88817d19894">attachComponent</a> (Args &amp;&amp;... args)</td></tr>
+<tr class="memdesc:a3485f4a4f62ed46102ebf88817d19894"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンポーネントを生成してアタッチするだけで Awake() は呼ばない  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+限定公開変数類</h2></td></tr>
+<tr class="memitem:ad69129ddfc9e7b87b69fe24bae932750" id="r_ad69129ddfc9e7b87b69fe24bae932750"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_uni_dx_1_1_string_id.html">StringId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad69129ddfc9e7b87b69fe24bae932750">name_</a></td></tr>
+<tr class="memitem:aceb7c1e1789f1e2ba67e4e4771a9b680" id="r_aceb7c1e1789f1e2ba67e4e4771a9b680"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="class_uni_dx_1_1_component.html">Component</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aceb7c1e1789f1e2ba67e4e4771a9b680">components</a></td></tr>
+<tr class="memitem:a78d71224eaeb4e7888b0a2acffc02a19" id="r_a78d71224eaeb4e7888b0a2acffc02a19"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78d71224eaeb4e7888b0a2acffc02a19">isCalledDestroy</a> = false</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
+フレンド</h2></td></tr>
+<tr class="memitem:a94284444ce9df711ae71494a51c5c608" id="r_a94284444ce9df711ae71494a51c5c608"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94284444ce9df711ae71494a51c5c608">Destroy</a> (<a class="el" href="#abd1ae0824779009dd2398f6d3df4ac7d">GameObject</a> *gameObject)</td></tr>
+<tr class="memdesc:a94284444ce9df711ae71494a51c5c608"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameObjectを破棄  <br /></td></tr>
+<tr class="memitem:aa4a59fbb41548a025fe15b206de0e704" id="r_aa4a59fbb41548a025fe15b206de0e704"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#abd1ae0824779009dd2398f6d3df4ac7d">GameObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4a59fbb41548a025fe15b206de0e704">Instantiate</a> (const <a class="el" href="#abd1ae0824779009dd2398f6d3df4ac7d">GameObject</a> &amp;original, <a class="el" href="class_uni_dx_1_1_transform.html">Transform</a> *parent)</td></tr>
+<tr class="memdesc:aa4a59fbb41548a025fe15b206de0e704"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameObjectと子孫を複製し、指定した親へ接続  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock"><p>キャラクターや背景カメラなどの基礎となるオブジェクト </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">構築子と解体子</h2>
+<a id="abd1ae0824779009dd2398f6d3df4ac7d" name="abd1ae0824779009dd2398f6d3df4ac7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd1ae0824779009dd2398f6d3df4ac7d">&#9670;&#160;</a></span>GameObject() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UniDx::GameObject::GameObject </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>n</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;GameObject&quot;</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aadf17081a30878fad7a9cd283d1d0ad8" name="aadf17081a30878fad7a9cd283d1d0ad8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadf17081a30878fad7a9cd283d1d0ad8">&#9670;&#160;</a></span>GameObject() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UniDx::GameObject::GameObject </td>
+          <td>(</td>
+          <td class="paramtype">const char8_t *</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4a1865445940e0438b433f1bb989f89" name="ab4a1865445940e0438b433f1bb989f89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4a1865445940e0438b433f1bb989f89">&#9670;&#160;</a></span>GameObject() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UniDx::GameObject::GameObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_uni_dx_1_1_string_id.html">StringId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52fb8a471b7868ab051e46cfa61aee1c" name="a52fb8a471b7868ab051e46cfa61aee1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52fb8a471b7868ab051e46cfa61aee1c">&#9670;&#160;</a></span>GameObject() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename First, typename... ComponentPtrs&gt; <br />
+requires (!std::same_as&lt;std::remove_cvref_t&lt;First&gt;, <a class="el" href="struct_uni_dx_1_1_vector3.html">Vector3</a>&gt;)</div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UniDx::GameObject::GameObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_uni_dx_1_1_string_id.html">StringId</a></td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">First &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>first</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ComponentPtrs &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>rest</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0f4eaec6a4dd7482fccbf37b8ed56b7" name="ae0f4eaec6a4dd7482fccbf37b8ed56b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0f4eaec6a4dd7482fccbf37b8ed56b7">&#9670;&#160;</a></span>GameObject() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... ComponentPtrs&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">UniDx::GameObject::GameObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_uni_dx_1_1_string_id.html">StringId</a></td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_uni_dx_1_1_vector3.html">Vector3</a></td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ComponentPtrs &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>components</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3534096bf7c215dfba74ad4be43791b5" name="a3534096bf7c215dfba74ad4be43791b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3534096bf7c215dfba74ad4be43791b5">&#9670;&#160;</a></span>GameObject() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename First, typename... ComponentPtrs&gt; <br />
+requires (!std::same_as&lt;std::remove_cvref_t&lt;First&gt;, <a class="el" href="struct_uni_dx_1_1_vector3.html">Vector3</a>&gt;)</div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UniDx::GameObject::GameObject </td>
+          <td>(</td>
+          <td class="paramtype">const char8_t *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">First &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>first</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ComponentPtrs &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>rest</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af51bbfc947086bf69de9691ec23a9e3f" name="af51bbfc947086bf69de9691ec23a9e3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af51bbfc947086bf69de9691ec23a9e3f">&#9670;&#160;</a></span>GameObject() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... ComponentPtrs&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">UniDx::GameObject::GameObject </td>
+          <td>(</td>
+          <td class="paramtype">const char8_t *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_uni_dx_1_1_vector3.html">Vector3</a></td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ComponentPtrs &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>components</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5fb67a13fbaae6e35b81fe7f52c5e3cc" name="a5fb67a13fbaae6e35b81fe7f52c5e3cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fb67a13fbaae6e35b81fe7f52c5e3cc">&#9670;&#160;</a></span>~GameObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UniDx::GameObject::~GameObject </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">関数詳解</h2>
+<a id="a237c3446178cba6e3095dc7b6e36df1c" name="a237c3446178cba6e3095dc7b6e36df1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a237c3446178cba6e3095dc7b6e36df1c">&#9670;&#160;</a></span>Add() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UniDx::GameObject::Add </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a608af257312f237fb0cf4e5279e18d78" name="a608af257312f237fb0cf4e5279e18d78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a608af257312f237fb0cf4e5279e18d78">&#9670;&#160;</a></span>Add() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename First, typename... Rest&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UniDx::GameObject::Add </td>
+          <td>(</td>
+          <td class="paramtype">First &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>first</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rest &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>rest</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c55e24089cc59c8b4991ef4bb3dcbbc" name="a0c55e24089cc59c8b4991ef4bb3dcbbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c55e24089cc59c8b4991ef4bb3dcbbc">&#9670;&#160;</a></span>Add() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Rest&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UniDx::GameObject::Add </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="#abd1ae0824779009dd2398f6d3df4ac7d">GameObject</a> &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>first</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Rest &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>rest</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb5cba145a1f89430629023ddfb5eb95" name="aeb5cba145a1f89430629023ddfb5eb95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb5cba145a1f89430629023ddfb5eb95">&#9670;&#160;</a></span>AddComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * UniDx::GameObject::AddComponent </td>
+          <td>(</td>
+          <td class="paramtype">Args &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>args</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>コンポーネントを生成してアタッチする GameObjectがアクティブシーンに接続済みなら、その場で Awake() / OnEnable() が呼ばれる </p>
+
+</div>
+</div>
+<a id="a3485f4a4f62ed46102ebf88817d19894" name="a3485f4a4f62ed46102ebf88817d19894"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3485f4a4f62ed46102ebf88817d19894">&#9670;&#160;</a></span>attachComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * UniDx::GameObject::attachComponent </td>
+          <td>(</td>
+          <td class="paramtype">Args &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>args</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>コンポーネントを生成してアタッチするだけで Awake() は呼ばない </p>
+
+</div>
+</div>
+<a id="aa21abfecc5f13a5b625b1eddb2f5bf8e" name="aa21abfecc5f13a5b625b1eddb2f5bf8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa21abfecc5f13a5b625b1eddb2f5bf8e">&#9670;&#160;</a></span>checkAwake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UniDx::GameObject::checkAwake </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>GameObjectとその子孫について、未呼び出しのAwake()/OnEnable()を呼ぶ </p>
+
+</div>
+</div>
+<a id="a3db41bfdac1da3521dae2f0a250497fe" name="a3db41bfdac1da3521dae2f0a250497fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3db41bfdac1da3521dae2f0a250497fe">&#9670;&#160;</a></span>checkDestroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UniDx::GameObject::checkDestroy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50fa12256682aecd8485d2ce628a2ece" name="a50fa12256682aecd8485d2ce628a2ece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50fa12256682aecd8485d2ce628a2ece">&#9670;&#160;</a></span>Find()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Predicate&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#abd1ae0824779009dd2398f6d3df4ac7d">GameObject</a> * UniDx::GameObject::Find </td>
+          <td>(</td>
+          <td class="paramtype">Predicate</td>          <td class="paramname"><span class="paramname"><em>pred</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abc30ffbc05d2633220a43989e0f666ee" name="abc30ffbc05d2633220a43989e0f666ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc30ffbc05d2633220a43989e0f666ee">&#9670;&#160;</a></span>GetComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * UniDx::GameObject::GetComponent </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92362d81fbdd8195d24ee0f400eb53ab" name="a92362d81fbdd8195d24ee0f400eb53ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92362d81fbdd8195d24ee0f400eb53ab">&#9670;&#160;</a></span>GetComponentInParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T * UniDx::GameObject::GetComponentInParent </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a600845741b8bc94b4194f4cc67e3e8a9" name="a600845741b8bc94b4194f4cc67e3e8a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a600845741b8bc94b4194f4cc67e3e8a9">&#9670;&#160;</a></span>GetComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; std::unique_ptr&lt; <a class="el" href="class_uni_dx_1_1_component.html">Component</a> &gt; &gt; &amp; UniDx::GameObject::GetComponents </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53bee2f46f58c91541431bc46c10e427" name="a53bee2f46f58c91541431bc46c10e427"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53bee2f46f58c91541431bc46c10e427">&#9670;&#160;</a></span>onCollisionEnter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UniDx::GameObject::onCollisionEnter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_uni_dx_1_1_collision.html">Collision</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>collision</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afbfc15b845a81c48cb7029bbab757db3" name="afbfc15b845a81c48cb7029bbab757db3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbfc15b845a81c48cb7029bbab757db3">&#9670;&#160;</a></span>onCollisionExit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UniDx::GameObject::onCollisionExit </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_uni_dx_1_1_collision.html">Collision</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>collision</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a363aa9f2c6e3ed82dfffca230ffb9420" name="a363aa9f2c6e3ed82dfffca230ffb9420"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a363aa9f2c6e3ed82dfffca230ffb9420">&#9670;&#160;</a></span>onCollisionStay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UniDx::GameObject::onCollisionStay </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_uni_dx_1_1_collision.html">Collision</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>collision</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9eb6d157e864604e12ee9762300cfa49" name="a9eb6d157e864604e12ee9762300cfa49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eb6d157e864604e12ee9762300cfa49">&#9670;&#160;</a></span>onTriggerEnter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UniDx::GameObject::onTriggerEnter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_uni_dx_1_1_collider.html">Collider</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a175e1420f9335e0a5c76cc4dd0dfb084" name="a175e1420f9335e0a5c76cc4dd0dfb084"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a175e1420f9335e0a5c76cc4dd0dfb084">&#9670;&#160;</a></span>onTriggerExit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UniDx::GameObject::onTriggerExit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_uni_dx_1_1_collider.html">Collider</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a1fa21682c5ddaa680b1424100ee74c" name="a2a1fa21682c5ddaa680b1424100ee74c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a1fa21682c5ddaa680b1424100ee74c">&#9670;&#160;</a></span>onTriggerStay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UniDx::GameObject::onTriggerStay </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_uni_dx_1_1_collider.html">Collider</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e5d5083352620b8111052a177979505" name="a4e5d5083352620b8111052a177979505"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e5d5083352620b8111052a177979505">&#9670;&#160;</a></span>SetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UniDx::GameObject::SetName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_uni_dx_1_1_string_id.html">StringId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-related-members" id="doc-related-members"></a><h2 id="header-doc-related-members" class="groupheader">フレンドと関連関数の詳解</h2>
+<a id="a94284444ce9df711ae71494a51c5c608" name="a94284444ce9df711ae71494a51c5c608"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94284444ce9df711ae71494a51c5c608">&#9670;&#160;</a></span>Destroy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Destroy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abd1ae0824779009dd2398f6d3df4ac7d">GameObject</a> *</td>          <td class="paramname"><span class="paramname"><em>gameObject</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel friend">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>GameObjectを破棄 </p>
+
+</div>
+</div>
+<a id="aa4a59fbb41548a025fe15b206de0e704" name="aa4a59fbb41548a025fe15b206de0e704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4a59fbb41548a025fe15b206de0e704">&#9670;&#160;</a></span>Instantiate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#abd1ae0824779009dd2398f6d3df4ac7d">GameObject</a> * Instantiate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abd1ae0824779009dd2398f6d3df4ac7d">GameObject</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>original</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_uni_dx_1_1_transform.html">Transform</a> *</td>          <td class="paramname"><span class="paramname"><em>parent</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel friend">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>GameObjectと子孫を複製し、指定した親へ接続 </p>
+<dl class="section return"><dt>戻り値</dt><dd>複製したGameObject。複製できないComponentがある場合はnullptr </dd></dl>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">メンバ詳解</h2>
+<a id="aceb7c1e1789f1e2ba67e4e4771a9b680" name="aceb7c1e1789f1e2ba67e4e4771a9b680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aceb7c1e1789f1e2ba67e4e4771a9b680">&#9670;&#160;</a></span>components</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::unique_ptr&lt;<a class="el" href="class_uni_dx_1_1_component.html">Component</a>&gt; &gt; UniDx::GameObject::components</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78d71224eaeb4e7888b0a2acffc02a19" name="a78d71224eaeb4e7888b0a2acffc02a19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78d71224eaeb4e7888b0a2acffc02a19">&#9670;&#160;</a></span>isCalledDestroy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UniDx::GameObject::isCalledDestroy = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad69129ddfc9e7b87b69fe24bae932750" name="ad69129ddfc9e7b87b69fe24bae932750"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad69129ddfc9e7b87b69fe24bae932750">&#9670;&#160;</a></span>name_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_uni_dx_1_1_string_id.html">StringId</a> UniDx::GameObject::name_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4cc15a46c5c931ac05c96a4c9479812" name="ae4cc15a46c5c931ac05c96a4c9479812"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4cc15a46c5c931ac05c96a4c9479812">&#9670;&#160;</a></span>transform</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_uni_dx_1_1_transform.html">Transform</a>* UniDx::GameObject::transform</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>include/UniDx/<a class="el" href="_game_object_8h_source.html">GameObject.h</a></li>
+<li>src/<a class="el" href="_game_object_8cpp.html">GameObject.cpp</a></li>
+<li>include/UniDx/<a class="el" href="_game_object__impl_8h_source.html">GameObject_impl.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespace_uni_dx.html">UniDx</a></li><li class="navelem"><a href="class_uni_dx_1_1_game_object.html">GameObject</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
+  </ul>
+</div>
+</body>
+</html>

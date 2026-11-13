@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sample3_SimpleGame.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="game.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\CameraController.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\framework.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LightController.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MapData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Player.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MainGame.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CameraController.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CreateDefaultScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LightController.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapData.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainGame.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\resource\AlbedoShadeSpec.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\Color.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\gradation.png">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\M PLUS 1.spritefont">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\map_data.txt">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\mini_emma.glb">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\Sprite.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\SimpleShade.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\wall.png">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\floor.png">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\coin.glb">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\ShadeSpec.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\SkinBasic.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>

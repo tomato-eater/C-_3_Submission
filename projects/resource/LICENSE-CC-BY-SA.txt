@@ -1,0 +1,78 @@
+﻿■ English
+
+This work is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+
+You are free to:
+
+Share — copy and redistribute the material in any medium or format
+
+Adapt — remix, transform, and build upon the material
+for any purpose, even commercially
+
+Under the following terms:
+
+Attribution
+You must give appropriate credit, provide a link to the license,
+and indicate if changes were made.
+
+ShareAlike
+If you remix, transform, or build upon the material,
+you must distribute your contributions under the same license.
+
+No additional restrictions
+You may not apply legal terms or technological measures
+that legally restrict others from doing anything the license permits.
+
+Full legal code:
+
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Copyright (c) 2025 Masahiro Nitta
+
+This license applies to the following materials in this repository:
+
+3D character models
+
+textures associated with those models
+
+converted sprite font textures generated from M PLUS 1 font
+
+other art assets in samples/resource unless otherwise noted
+
+This license does NOT apply to:
+
+UniDx source code (MIT License)
+
+third-party libraries under their own licenses
+
+
+■ 日本語（参考訳）
+
+本作品は
+クリエイティブ・コモンズ 表示—継承 4.0 国際（CC BY-SA 4.0）
+でライセンスされています。
+
+あなたは以下のことができます：
+
+共有 — あらゆる媒体や形式で複製および再配布する
+
+翻案 — リミックス・変形・改変・二次著作物の作成
+（商用利用を含む）
+
+ただし、以下の条件に従う必要があります：
+
+表示（BY）
+適切なクレジット（著作者名等）を表示し、
+ライセンスへのリンクを提示し、
+変更がある場合はその旨を表示すること
+
+継承（SA）
+翻案物を作成した場合、
+同じ CC BY-SA 4.0 ライセンスで再配布すること
+
+追加制限の禁止
+ライセンスが許可する行為を法的・技術的に制限してはならない
+
+※法的効力を持つのは英語原文です。
+※詳細は上記リンク先の法的コードをご確認ください。

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\CameraController.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CreateDefaultScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LightController.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainGame.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CBController.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\CameraController.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\framework.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LightController.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MainGame.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Player.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CBController.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\resource\Albedo.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\AlbedoShade.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\AlbedoShadeSpec.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\brick-1.png">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\brick-2.png">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\coin.glb">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\Color.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\floor.png">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\gradation.png">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\M PLUS 1.spritefont">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\mini_emma.glb">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\ModularCharacterPBR.glb">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\Pumpkin-carved-lit-a.glb">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\ShadeSpec.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\SimpleShade.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\SkinBasic.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\Sprite.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\space_frigate_0.glb">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\space_frigate.png">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\wall-2.png">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\wood-1.png">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\wood-2.png">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\wall.png">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\wall-1.png">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\map_data.txt">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="game.ico">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\VertexTest.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\PixelTest1.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\resource\PixelTest2.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{3c49c343-1dd4-4c2e-ab17-bc5b73b23d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{123c0445-6be3-4a2c-94d8-e718b0180f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{8cfbe1e7-f337-4962-a8ae-06a2c8245261}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sample3_SimpleGame.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
