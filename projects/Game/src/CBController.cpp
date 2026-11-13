@@ -2,7 +2,7 @@
 
 #include <UniDx/D3DManager.h>
 #include <UniDx/Input.h>
-
+#include <UniDx/Time.h>
 
 using namespace UniDx;
 
@@ -12,7 +12,9 @@ namespace
     struct CBParam // register(b0)
     {
         Color baseColor;
+        Vector4 myData;
     };
+
     constexpr int CBSlot = 0;
 
     Color colorTable[] =
@@ -24,6 +26,10 @@ namespace
         Color(0.5, 0, 0),
         Color(0, 0.5, 0),
         Color(0, 0, 0.5),
+        Color(0, 0, 0),
+        Color(0, 0, 1),
+        Color(0, 1, 0),
+        Color(1, 0, 0),
     };
     constexpr int tableSize = sizeof(colorTable) / sizeof(Color);
 }
@@ -49,11 +55,39 @@ void CBController::Update()
         colorIndex = (colorIndex + 1) % tableSize;
     }
 
+    if(Input::GetKeyDown(Keyboard::Up))
+    {
+        colorIndex--;
+        if (colorIndex < 0) {
+            colorIndex = tableSize - 1;
+        }
+    }
+    if (Input::GetKey(Keyboard::Space)) {
+        colorIndex = (colorIndex + 1) % tableSize;
+    }
+
+    if (Input::GetKeyDown(Keyboard::Right) && alpha > 0.1f)
+    {
+        alpha -= 0.1f;
+    }
+    if (Input::GetKeyDown(Keyboard::Left) && alpha < 1.0f) {
+        alpha += 0.1f;
+    }
+
+    if (Input::GetKey(Keyboard::E)) {
+
+        timeScale -= Time::deltaTime;
+    }
+    if (Input::GetKey(Keyboard::Q)) {
+        timeScale += Time::deltaTime;
+    }
 
     CBParam cb;
 
     // カラーテーブルから現在のインデクスの色を設定
     cb.baseColor = colorTable[colorIndex];
+    cb.myData.x = timeScale;
+    cb.myData.y = alpha;
 
     // 定数バッファを更新
     D3DManager::getInstance()->GetContext()->UpdateSubresource(constantBuffer.Get(), 0, nullptr, &cb, 0, 0);

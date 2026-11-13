@@ -7,6 +7,7 @@
 cbuffer CBParam : register(b0)
 {
     float4 baseColor;
+    float4 myData;
 };
 
 // ----------------------------------------------------------
@@ -57,8 +58,10 @@ PSInput VS(VSInput vin)
 
     float4 worldPos = p;
 
+    float t = time.x * myData.x;
+    
     float l = length(worldPos.xz);
-    worldPos.y += sin(l * -0.5 + time.x);
+    worldPos.y += cos(l * -0.5 + t);
 
     p = mul(worldPos, view);
     p = mul(p, projection);
@@ -66,7 +69,7 @@ PSInput VS(VSInput vin)
     Out.pos = p;
     
     float c = worldPos.y * 0.2 + 0.5;
-    Out.color = baseColor * float4(c, c, c, 1);
+    Out.color = baseColor * float4(c, c, c, myData.y);
 
     return Out;
 }
